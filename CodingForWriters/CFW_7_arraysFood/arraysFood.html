@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- Gathers user input from checkboxes and textbox. To practice array creation and manipulation. -->
+<html>
+    <head>
+        <title>Party time!</title>
+    </head>
+    <body>
+        <p>Please enter your name.</p>
+        <form name="personName">
+            <label for="firstName">First name: </label><input type="text" id="firstName"><br><br>
+            
+            <label for="lastName">Last name: </label><input type="text" id="lastName"><br><br>
+        </form>
+
+        <p>Check the foods that you can bring to the party.</p>
+        <form id="foods" name="foods">
+            <label for="tortillaChips">Tortilla chips</label> 
+            <input type="checkbox" name="food" value="Tortilla chips" id="tortillaChips" /><br>
+
+            <label for="salsa">Salsa</label> 
+            <input type="checkbox" name="food" value="Salsa" id="salsa" /><br>
+
+            <label for="guacamole">Guacamole</label> 
+            <input type="checkbox" name="food" value="Guacamole" id="guacamole" /><br>
+
+            <label for="potatoChips">Potato chips</label> 
+            <input type="checkbox" name="food" value="Potato chips"  id="potatoChips"/><br>
+
+            <label for="pitaBbread">Pita bread</label>
+            <input type="checkbox" name="food" value="Pita bread" id="pitaBread" /><br>
+
+            <label for="hummus">Hummus</label> 
+            <input type="checkbox" name="food" value="Hummus" id="hummus" /><br>
+
+            <label for="veggies">Veggies</label> 
+            <input type="checkbox" name="food" value="Veggies" id="veggies" /><br>
+
+            <label for="veggie_dip">Veggie dip</label> <input type="checkbox" name="food" value="Veggie dip" id="veggie_dip" /><br>
+
+            <label for="beer">Beer</label> 
+            <input type="checkbox" name="food" value="Beer" id="beer" /><br>
+
+            <label for="soda">Soda</label> 
+            <input type="checkbox" name="food" value="Soda" id="soda" /><br>
+
+            <label for="cups">Cups</label> 
+            <input type="checkbox" name="food" value="Cups" id="cups"/><br>
+
+            <label for="plates">Plates</label> 
+            <input type="checkbox" name="food" value="Plates" id="plates" /><br>
+
+            <label for="utensils">Utensils</label> 
+            <input type="checkbox" name="food" value="Utensils" id="utensils" /><br>
+
+            <label for="napkins">Napkins</label>
+            <input type="checkbox" name="food" value="Napkins" id="napkins" /><br>
+
+            <label for="other">Other: </label> 
+            <input type="text" id="other" /><br><br>
+        </form>
+
+         <!-- Calls the result() function when user clicks Submit button. Return false cancels form request so form will not submit and refresh the page. -->
+        <button onclick="result(); return false;" class="button">Submit</button>
+
+        <script src="arraysFood.js"></script>
+    </body>
+</html>
