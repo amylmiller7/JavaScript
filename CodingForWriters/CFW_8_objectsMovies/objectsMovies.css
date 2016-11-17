@@ -1,0 +1,45 @@
+body {
+    font-family:  "Roboto","Helvetica",arial,sans-serif;
+}
+
+.title {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #D3D3D3;
+    border-radius: 5px;
+    font-family: "Roboto","Helvetica",arial,sans-serif;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #1E90FF;
+}
+
+#addMovieButton:hover {
+    background-color: #1E90FF;
+}
+
+#addMovieButton {
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #FBB917;
+}
+
+input[type=text] {
+    border: 1px solid black;
+}
+
+textarea {
+    border: 1px solid black;
+}
+
+.hidden {
+    display:none;
+}
+
+.unhidden {
+    display:block;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<!-- Displays list of movie and modifies based on user input. -->
+<html>
+    <head>
+        <title>Movies!</title>
+        <link rel="stylesheet" href="objectsMovies.css">
+    </head>
+    <!-- Calls displayMovies() function when page loads. -->
+    <body onload="displayMovies()">
+        <p class="title">Movies</p>
+        <div id="addMovieForm" class="hidden">
+            <form>
+                <p>
+                    <span>Title</span><br>
+                    <textarea name="textarea" rows="2" cols="25" maxlength="140" id="movieTitle"></textarea>
+                </p>
+                
+                <p>
+                    <label for="movieYear">Year</label><br>
+                    <input type="text" id="movieYear" size="27" /> 
+                </p>
+
+                <p>
+                    <label for="movieCategory">Category</label><br>
+                    <input type="text" id="movieCategory" size="27"  />
+                </p>
+                
+                <p>
+                    <span>Movie synopsis</span><br>
+                    <textarea name="textarea" rows="5" cols="25" maxlength="140" id="movieSynopsis"></textarea>
+                </p>
+
+            </form>
+        
+        <!-- Calls the createAccoumt() function when user clicks Submit button. -->
+        <button onclick="submitNewMovie();" value="hide" class="button">Submit</button>
+        </div>
+        
+        <div id="results"></div>
+        
+        <div id="buttons" class="unhidden">
+            <button onclick="sortByTitle()" class="button">Sort By Title</button>
+            <button onclick="sortByYear()" class="button">Sort By Year</button>
+            <button onclick="sortByCategory()" class="button">Sort By Category</button><br><br>
+            <!-- Calls the addMovie() function, which makes the form visible, when the user clicks the button. -->
+            <button onclick="addMovie(); " value="unhide" id="addMovieButton" class="button">Want to add a movie?</button>
+        </div>
+        
+        <script src="objectsMovies.js"></script>
+    </body>
+</html>
