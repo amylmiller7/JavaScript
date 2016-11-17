@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<!-- Manipulates the first name and last name that the user entered. -->
+<html>
+    <head>
+        <title>Name manipulation</title>
+        <link rel="stylesheet" href="nameManipulation.css">
+    </head>
+    <body>
+        <form>
+            <label for="firstName">First name: </label>
+            <input type = "text" id="firstName" class="first_name" placeholder="Enter your first name."><br><br>
+            
+            <label for="lastName">Last name: </label>
+            <input type = "text" id="lastName" placeholder="Enter your last name." class="textbox"><br/><br/>
+        </form>
+        
+        <!-- Calls functions when user clicks buttons. Return false cancels form request so form will not submit and refresh the page. -->
+        <button onclick="showName(); return false;" class="button">Get Full Name</button>
+        
+        <button onclick="showLastNameFirst(); return false;" class="button">Show Last Name First</button>
+        
+        <button onclick="showLength(); return false;" class="button">Length of Full Name </button>
+        
+        <button onclick="resetInfo(); return false;" id="resetButton">Reset All</button>
+        
+        <p id="getFullName" class="returnedResults"></p>
+        
+        <p id="getLastNameFirst" class="returnedResults"></p>
+        
+        <p id="showFullNameLength" class="returnedResults"></p>
+        
+        <script src="nameManipulation.js"></script>
+    </body>
+</html>
