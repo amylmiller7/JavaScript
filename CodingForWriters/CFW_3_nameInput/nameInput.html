@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<!-- Manipulates first name and last name that the user entered. -->
+<html>
+    <head>
+        <title>Name input</title>
+    </head>
+    <body>
+        <form>
+            <label for="first">First name: </label>
+            <input type="text" id="first"><br><br>
+            
+            <label for="last">Last name: </label>
+            <input type="text" id="last"><br><br>
+        </form>
+        
+        <!-- Calls getName() function when user clicks Get Name button. Return false cancels form request so form will not submit and refresh the page. -->
+        <button onclick="getName(); return false;">Get Full Name (First Last)</button>
+        
+        <p id="fullName"></p>
+
+        <button onclick="getNameReverse(); return false;">Get Full Name (Last First)</button>
+        
+        <p id="lastNameFirst"></p>
+        
+        <script src="nameInput.js"></script>
+    </body>
+</html>
