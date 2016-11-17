@@ -1,0 +1,23 @@
+body {
+    font-family:  "Roboto","Helvetica",arial,sans-serif;
+}
+
+#intro {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #D3D3D3;
+    border-radius: 5px;
+    font-family: "Roboto","Helvetica",arial,sans-serif;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #1E90FF;
+}
+
+#warning {
+    color: red
+}

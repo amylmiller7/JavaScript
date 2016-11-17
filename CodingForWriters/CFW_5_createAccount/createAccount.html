@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<!-- Creates a username and password for an account. -->
+<html>
+    <head>
+        <title>Create an account!</title>
+        <link rel="stylesheet" href="createAccount.css">
+    </head>
+    <body>
+        <form>
+            <p id="intro">Welcome!</p>
+            <label for="username">Create your username.</label><br>
+            <input type = "text" id="username" size="35" /><br><br>
+
+            <!-- Hides password input type attribute as user types. -->
+            <label for="password">Create a password.</label><br>
+            <input type = "password" id="password" size="35" /> <span id="warning">Must be 6 to 10 characters in length.</span><br><br>
+
+            <label for="confirm_password">Confirm your password.</label><br>
+            <input type = "password" id="confirm_password" size="35"  /><br><br>
+        </form>
+        
+        <!-- Calls the createAccoumt() function when user clicks Submit button. Return false cancels form request so form will not submit and refresh the page. -->
+        <button onclick="createAccount(); return false;" class="button">Submit</button>
+        
+        <p id="result"></p>
+        
+        <script src="createAccount.js"></script>
+
+    </body>
+</html>
