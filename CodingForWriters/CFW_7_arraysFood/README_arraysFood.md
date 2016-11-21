@@ -1,6 +1,6 @@
 # Arrays Food
 
-**Files: **
+**Files:**
 * arraysFood.html
 * arraysFood.js
 
