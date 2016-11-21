@@ -1,11 +1,11 @@
 # Objects Movies
 
-## Files:  
+**Files:**  
 * objectsMovies.html
 * objectsMovies.js
 * objectsMovies.css
 
-## Documentation:  
+**Documentation:**
 * objectsMovies documentation.docx
 
 **Summary:** Displays list of movie and modifies based on user input. Allows user to sort movies in the list based on title, year, and category. Allows user to add movies to the list and sort them based on title, year, and category. 
