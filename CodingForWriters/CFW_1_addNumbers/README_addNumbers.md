@@ -1,10 +1,10 @@
 # Add Numbers
 
-## Files:  
+**Files:** 
 * addNumbers.html
 * addNumbers.js
 
-## Documentation:  
+**Documentation:**
 * addNumbers documentation.docx
 
 **Summary:** Adds numbers that the user entered. Converts text that the user entered from string to number. Displays result on webpage.  

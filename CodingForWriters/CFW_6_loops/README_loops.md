@@ -1,10 +1,10 @@
 # Loops
 
-## Files:  
+**Files:**
 * loops.html
 * loops.js
 
-## Documentation:  
+**Documentation:** 
 * loop documentation.docx
 
 **Summary:** Iterates over loops. Adds 1 number, adds 2 numbers, subtracts 1 number, subtracts 3 numbers, and multiplies by 2. Displays results on webpage.  

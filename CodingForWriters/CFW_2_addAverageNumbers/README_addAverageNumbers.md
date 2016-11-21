@@ -1,10 +1,10 @@
 # Add And Average Numbers
 
-## Files:  
+**Files:**
 * addAverageNumbers.html
 * addAverageNumbers.js
 
-## Documentation:  
+**Documentation:** 
 * addAverageNumbers.docx
 
 **Summary:** Adds and averages numbers that the user entered. Converts text that the user entered from string to number. Changes width of text boxes to the number of characters that the user entered. Displays results on webpage.

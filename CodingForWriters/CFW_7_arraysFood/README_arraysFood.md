@@ -1,10 +1,10 @@
 # Arrays Food
 
-## Files:  
+**Files: **
 * arraysFood.html
 * arraysFood.js
 
-## Documentation:  
+**Documentation:** 
 * arraysFood documentation.docx
 
 **Summary:** Gathers user input from checkboxes and text box. To practice array creation and manipulation. Creates array. Adds selected items and text input in text box to the array. Sorts items alphabetically before returning array as a list with a message to the user.  

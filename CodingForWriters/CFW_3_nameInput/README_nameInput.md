@@ -1,10 +1,10 @@
 # Name Input
 
-## Files:  
+**Files:** 
 * nameInput.html
 * nameInput.js
 
-## Documentation:  
+**Documentation:** 
 * nameInput documentation.docx
 
 **Summary:** Manipulates the first name and last name that the user entered. Displays name on webpage two ways: first name followed by last name and last name followed by first name.   
