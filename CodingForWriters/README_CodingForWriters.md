@@ -46,3 +46,4 @@
 * JavaScript file
 * README documentation
 * Technical documentation
+* CHANGELOG documentation

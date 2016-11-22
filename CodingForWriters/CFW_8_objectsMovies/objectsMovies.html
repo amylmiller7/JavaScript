@@ -12,7 +12,7 @@
             <form>
                 <p>
                     <span>Title</span><br>
-                    <textarea name="textarea" rows="2" cols="25" maxlength="140" id="movieTitle"></textarea>
+                    <textarea name="textarea" rows="2" cols="25" maxlength="140" id="movieTitle" autofocus></textarea>
                 </p>
                 
                 <p>
@@ -21,8 +21,21 @@
                 </p>
 
                 <p>
-                    <label for="movieCategory">Category</label><br>
-                    <input type="text" id="movieCategory" size="27"  />
+                    <select name="movieCategory" id="movieCategory">
+                        <option value="Action">Action</option>
+                        <option value="Animation">Animation</option>
+                        <option value="Black and white">Black and white</option>
+                        <option value="Comedy">Comedy</option>
+                        <option value="Documentary">Documentary</option>
+                        <option value="Drama" selected>Drama</option>
+                        <option value="Foreign">Foreign</option>
+                        <option value="History">History</option>
+                        <option value="Horror">Horror</option>
+                        <option value="Mystery">Mystery</option>
+                        <option value="Science fiction">Science fiction</option>
+                        <option value="Silent film">Silent film</option>
+                        <option value="Other">Other</option>
+                    </select>
                 </p>
                 
                 <p>
