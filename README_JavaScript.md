@@ -20,4 +20,4 @@ To render project in browser:
 
 6. Paste URL for the html file.
 
-7 Copy URL that RawGit generates under Use this URL in production into your browser.
+7. Copy URL that RawGit generates under Use this URL in production into your browser.
