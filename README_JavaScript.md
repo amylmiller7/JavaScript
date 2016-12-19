@@ -12,7 +12,7 @@ To render project in browser:
 
 2. Click any project. 
 
-3. Click html file in that project.
+3. Click the html file in that project.
 
 4. Copy URL for the html file.
 
