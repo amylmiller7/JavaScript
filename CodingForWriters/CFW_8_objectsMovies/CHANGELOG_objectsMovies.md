@@ -1,4 +1,4 @@
-# Change Log CFW_8_objectsMovies
+# Change Log Objects Movies
 
 **Date: November 22, 2016**
 
