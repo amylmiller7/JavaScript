@@ -39,6 +39,9 @@
 
 **JS:** Creates object type with object constructor function. Creates new movie object using that constructor. Creates array and adds movie objects to array. Uses sort method on array. Loops through array to add movie object properties or movie object properties sorted by a particular property to webpage. Creates functions, uses if statements, uses for loops. Hides/unhides parts of webpage (movie list, movie form, buttons) based on classes. Retrieves info from user input in form. Creates new movie object from user input in form, adds to array, displays on webpage, and sorts based on button clicked. 
 
+## 9_libraryOngoingEducation
+**Summary:** Displays select Ongoing Education coursework in chart form. Uses a JavaScript library to display the chart. Data gathered from list of recent coursework in XML repo, project Ongoing Education.
+
 
 ## Folders contain:  
 * HTML file
