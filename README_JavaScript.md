@@ -8,7 +8,9 @@ Repository includes projects inspired by classes. Done as assignments, projects 
 
 To render project in browser:
 
-1. Click **JavaScript**, **CodingForWriters**, and any project folder.
+1. Click **JavaScript** > **CodingForWriters**.
+
+2. Click any project folder.
 
 3. Click the HTML file in that project folder.
 
