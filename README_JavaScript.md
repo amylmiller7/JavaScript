@@ -8,16 +8,14 @@ Repository includes projects inspired by classes. Done as assignments, projects 
 
 To render project in browser:
 
-1. Click **HTML_CSS**.
+1. Click **JavaScript**, **CodingForWriters**, and any project folder.
 
-2. Click any project. 
+3. Click the HTML file in that project folder.
 
-3. Click the html file in that project.
-
-4. Copy URL for the html file.
+4. Copy the URL for the HTML file.
 
 5. Go to http://rawgit.com/.
 
-6. Paste URL for the html file.
+6. Paste the URL for the HTML file.
 
-7. Copy URL that RawGit generates under Use this URL in production into your browser.
+7. Copy the URL that RawGit generates under **Use this URL in production** into your browser.
