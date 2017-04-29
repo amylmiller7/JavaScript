@@ -1,7 +1,7 @@
 // Displays select Ongoing Education coursework in chart form. Uses a JavaScript library to display the chart. 
 
 function drawChart() {
-	// !! converts JS object to true if not null, false if null
+	// !! Shortcut to convert JS object to true if not null, false if null
 	// Checks if canvas element is supported
 	if (!!document.createElement('canvas').getContext) {
 		var mychart = new AwesomeChart('canvas1');
