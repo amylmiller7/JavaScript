@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<!-- Creates therapist bot that user can interact with. -->
+<html>
+	<head>
+		<title>Fra&uuml;lein Anna, the Therapist Bot</title>
+		<link rel="stylesheet" href="therapistBot.css">
+	</head>
+	
+	<!-- Function initialize called when web page loads. -->
+	<body onload="initialize()">
+		<h1>Fra&uuml;lein Anna, the Therapist Bot</h1>
+		<p>Write here: <input id="textbox" size="150" /></p>
+		
+		<!-- Function submitLine called when button clicked. -->
+		<button onclick="submitLine()" id="enter">Submit</button>
+		<p></p>
+		<div id="conversation">
+			<div class="message">
+			</div>
+		</div>
+		
+		<script type="application/javascript" src="therapistBot.js"></script>
+	</body>
+</html>
+
