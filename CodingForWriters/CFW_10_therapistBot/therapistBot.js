@@ -1,16 +1,17 @@
+// Udemy Coding for Writers final project 
 // Creates therapist bot that user can interact with.
 // Changes therapist responses based on type of user input.
 
 // Variable to hold the therapy session window
 var therapySession;
 
-// Array of responses by the therapist bot to exclamations
+// Responses to user comments that end in an exclamation point or are in all capital letters
 const EXCLAMATION_RESPONSES = [
     "You sound very passionate about that.",
     "You seem very excited.",
     "It sounds like you are agitated."];
 
-// Array of generic responses by the therapist bot
+// Responses to user comments that end in an exclamation point or are in all capital letters
 const GENERIC_RESPONSES = [
     "How does that make you feel?",
     "Go on.",
@@ -20,10 +21,10 @@ const GENERIC_RESPONSES = [
     "Keep talking.",
     "I'm listening."];
 
-// EXTRA. Constant used in function scroll and function scrollToBottom
+// EXTRA. Patient and therapist conversation. Used in function scroll and function scrollToBottom
 const MESSAGES = document.getElementById("conversation");
 
-// Object that maps first and second person phrases as key/value pairs
+// Mapping between first-person and second-person words
 const POV_SWITCHES = {
     "I": "you",
     "i": "you",
@@ -41,7 +42,7 @@ const POV_SWITCHES = {
     "i'll": "you'll"
 };
 
-// Array of question responses by the therapist bot
+// Responses to user comments that end in question marks
 const QUESTION_RESPONSES = [
     "Why do you ask that?",
     "What do <em>you</em> think?",
@@ -49,7 +50,7 @@ const QUESTION_RESPONSES = [
     "How long have you wanted to know that?",
     "That depends on who you ask."];
 
-// Array of responses by the therapist bot to turn user statements into questions
+// AFirst few words of a question. Responses by the therapist bot to turn user statements into questions
 const QUESTION_STARTS = [
     "Why do you say that",
     "Can you tell me more about how",
@@ -123,7 +124,7 @@ function submitLine() {
     scrollToBottom();
 }
 
-// Randomly selects item from any array. Returns element from index position in array that corresponds to randomly generated number.
+// Returns a random element of an array. 
 function randomElement(myArray) {
     // Math.random returns a random number between 0 (inclusive) and 1 (exclusive).
     // Math.floor strips off decimal points and turns random number into integer.
@@ -136,12 +137,13 @@ function lastChar(myString) {
     return myString.substring(myString.length - 1);
 }
 
-// EXTRA. Changes first letter in sentence to lower case. slice() extracts part of string (start, end). Note: Only works on first sentence of user input.
+// EXTRA. Returns string with first character lower case.
+// slice() extracts part of string (start, end). Note: Only works on first sentence of user input.
 function lowercaseFirstLetter(string){
     return string[0].toLowerCase() + string.slice(1);
 }
 
-// Converts statement by user into question response from therapist bot.
+// Returns a question based on the user's input.
 function createQuestion(patientLine){
     // EXTRA. Assigns value returned from function lowercaseFirstLetter to user input.
     patientLine = lowercaseFirstLetter(patientLine);

@@ -26,7 +26,6 @@
 
 ## 6_loops 
 **Summary:** Iterates over loops. Adds 1 number, adds 2 numbers, subtracts 1 number, subtracts 3 numbers, and multiplies by 2. Displays results on webpage.  
-
 **JS:** Creates functions. Uses for loops. Uses innerHTML to add results to webpage.
 
 ## 7_arraysFood
@@ -40,8 +39,16 @@
 **JS:** Creates object type with object constructor function. Creates new movie object using that constructor. Creates array and adds movie objects to array. Uses sort method on array. Loops through array to add movie object properties or movie object properties sorted by a particular property to webpage. Creates functions, uses if statements, uses for loops. Hides/unhides parts of webpage (movie list, movie form, buttons) based on classes. Retrieves info from user input in form. Creates new movie object from user input in form, adds to array, displays on webpage, and sorts based on button clicked. 
 
 ## 9_libraryOngoingEducation
-**Summary:** Displays select Ongoing Education coursework in chart form. Uses a JavaScript library to display the chart. Data gathered from list of recent coursework in XML repo, project Ongoing Education.
+**Summary:** Displays select Ongoing Education coursework in chart form. Uses a JavaScript library to display the chart. Data gathered from list of recent coursework in XML repo, project *Ongoing Education*.
 
+## 10_therapistBot
+**Summary:** Final project. Creates a therapist bot that user interacts with by typing comments into text box. Therapist bot responds to user's input.
+ 
+**JS:** Uses constant arrays to house therapist responses. Outputs user input and random therapist responses to web page. User input processed upon clicking Submit button or hitting Return. Clears text box after user input has been output to web page.
+
+Checks user input for the following: no input, ends in question mark or exclamation point, in all upper case letters, or contains first person words. Responds to user input based on what is found. Replaces user input that contains first person words with second person words, changes first word to lower case, and adds this modified user input to a random therapist question.
+
+As user and therapist conversation fills a set window size, automatically scrolls to the bottom of the therapy session window so user can view latest messages. 
 
 ## Folders contain:  
 * HTML file
