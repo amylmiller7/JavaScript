@@ -1,4 +1,24 @@
 # Coding for Writers projects
+
+These projects include the following: 
+* Course exercises
+* Projects that build on course exercises
+* My own projects that might use a few items learned in the course but mainly deviate far from the course lessons
+
+| Project | Source description |
+| ------------- |-------------|
+| CFW_1 | Udemy Coding for Writers exercise on operators | 
+| CFW_2 | Own project developed from items learned in Udemy Coding for Writers course  |
+| CFW_3 | Project that builds on Udemy Coding for Writers exercise on HTML and JS. Consolidated functions about manipulating user input. |
+| CFW_4 | Project that builds on Udemy Coding for Writers exercise on functions. Created function to output the returned values from other functions to web page. |
+| CFW_5 | Own project to create and validate credentials when setting up account. Inspired by simple login function used in Udemy Coding for Writers exercise that matched credentials to hardcoded values. |
+| CFW_6 | Udemy Coding for Writers exercise on loops |
+| CFW_7 | Own project that creates arrays to store user input, manipulates input, and outputs manipulated input to web page.  |
+| CFW_8 | Own project that uses objects, manipulates user input, allows user to sort data, and changes the contents of the web page. |
+| CFW_9 | Project that builds on Udemy Coding for Writers exercise on libraries. Uses my own data. |
+| CFW_10 | Project that builds Udemy Coding for Writers final project. Extended functionality beyond items learned in course or required for final project, e.g., calls submit() function when use clicks Return, checks if no user input in textbox, clears user input from textbox after content added to web page, converts user input to lower case, scrolls to bottom of web page when new content added. |
+
+
 ## 1_addNumbers 
 **Summary:** Adds numbers that the user entered. Converts text that the user entered from string to number. Displays result on webpage.  
 
@@ -17,7 +37,7 @@
 ## 4_nameManipulation
 **Summary:** Manipulates the first name and last name that the user entered. Displays name on webpage two ways: first name followed by last name and last name followed by first name. Calculates and displays the length of the full name (including space between names). Allows user to clear data from input fields and webpage. 
 
-**JS:**  Creates functions. Uses value property to retrieve values. Uses length property. Uses innerHTML to add results to webpage. Uses value and innerHTML properties with document.getElementById(“x”) to clear text boxes and webpage.
+**JS:** Creates functions. Uses value property to retrieve values. Uses length property. Uses innerHTML to add results to webpage. Uses value and innerHTML properties with document.getElementById(“x”) to clear text boxes and webpage.
 
 ## 5_createAccount 
 **Summary:** Creates a username and password for an account. Confirms that user entered text in text boxes. Compares the number of characters in the password and password confirmation text boxes. Checks that the text input in the password and password confirmation text boxes match. Adds messages in alerts and webpage. Clears text in text boxes.  
@@ -42,7 +62,7 @@
 **Summary:** Displays select Ongoing Education coursework in chart form. Uses a JavaScript library to display the chart. Data gathered from list of recent coursework in XML repo, project *Ongoing Education*.
 
 ## 10_therapistBot
-**Summary:** Final project. Creates a therapist bot that user interacts with by typing comments into text box. Therapist bot responds to user's input.
+**Summary:** Creates a therapist bot that user interacts with by typing comments into text box. Therapist bot responds to user's input.
  
 **JS:** Uses constant arrays to house therapist responses. Outputs user input and random therapist responses to web page. User input processed upon clicking Submit button or hitting Return. Clears text box after user input has been output to web page.
 
@@ -50,10 +70,11 @@ Checks user input for the following: no input, ends in question mark or exclamat
 
 As user and therapist conversation fills a set window size, automatically scrolls to the bottom of the therapy session window so user can view latest messages. 
 
-## Folders contain:  
+
+## Project folders contain:  
 * HTML file
 * CSS file, if used
-* JavaScript file
+* JavaScript file(s)
 * README documentation
 * Technical documentation
 * CHANGELOG documentation
