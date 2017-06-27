@@ -7,6 +7,8 @@
 **Documentation:** 
 * nameInput documentation.docx
 
+**Source description:** Project that builds on Udemy Coding for Writers exercise on HTML and JS
+
 **Summary:** Manipulates the first name and last name that the user entered. Displays name on webpage two ways: first name followed by last name and last name followed by first name.   
 
 **JS:** Creates functions. Uses value property to retrieve values. Uses innerHTML to add results to webpage. 

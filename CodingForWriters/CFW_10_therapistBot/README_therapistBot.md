@@ -8,6 +8,8 @@
 **Documentation:**
 * therapistBot documentation.docx
 
+**Source description:** Project that builds Udemy Coding for Writers final project. Extended functionality beyond items learned in course or required for final project
+
 **Summary:** Creates a therapist bot that user interacts with by typing comments into text box. Therapist bot responds to user's input.
  
 **JS:** Uses constant arrays to house therapist responses. Outputs user input and random therapist responses to web page. User input processed upon clicking Submit button or hitting Return. Clears text box after user input has been output to web page.

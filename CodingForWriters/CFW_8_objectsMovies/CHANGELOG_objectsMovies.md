@@ -8,4 +8,4 @@ Changes to movie input form.
 
 **Date: October 2016**
 
-Initial project creation.
+* Initial project creation.

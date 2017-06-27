@@ -1,3 +1,5 @@
+// Own project to create and validate credentials when setting up account. Not an exercise for Udemy Coding for Writers course.
+
 // Creates a username and password for an account. 
 // Confirms that user entered text in text boxes. Compares the number of characters in the password and password confirmation text boxes. Checks that the text input in the password and password confirmation text boxes match. Adds messages in alerts and webpage. Clears text in text boxes. 
 

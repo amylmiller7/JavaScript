@@ -1,3 +1,5 @@
+// Own project that uses objects, manipulates user input, allows user to sort data, and changes the contents of the web page. Not an exercise for Udemy Coding for Writers course.
+
 // Displays list of movie and modifies based on user input.
 // Allows user to sort movies in the list based on title, year, and category. Allows user to add movies to the list and sort them based on title, year, and category.
 

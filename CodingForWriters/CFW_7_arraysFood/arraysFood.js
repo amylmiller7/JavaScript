@@ -1,3 +1,5 @@
+// Own project that creates arrays to store user input, manipulates input, and outputs manipulated input to web page. Not an exercise for Udemy Coding for Writers course.
+
 // Gathers user input from checkboxes and text box. To practice array creation and manipulation.
 // Creates array. Adds selected items and text input in text box to the array. Sorts items alphabetically before returning array as a list with a message to the user.
 

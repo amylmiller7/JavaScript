@@ -1,4 +1,5 @@
 // Udemy Coding for Writers exercise on loops
+
 // Iterates over loops. 
 // Adds 1 number, adds 2 numbers, subtracts 1 number, subtracts 3 numbers, and multiplies by 2. Displays results on webpage.
 

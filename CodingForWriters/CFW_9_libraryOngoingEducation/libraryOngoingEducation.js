@@ -1,3 +1,5 @@
+// Project that builds on Udemy Coding for Writers exercise on libraries 
+
 // Displays select Ongoing Education coursework in chart form. Uses a JavaScript library to display the chart. 
 
 function drawChart() {

@@ -1,3 +1,5 @@
+// Own project developed from items learned in Udemy Coding for Writers course. Not an exercise for Udemy Coding for Writers course.
+
 // Adds and averages numbers that the user entered. 
 // Converts the text that the user entered from string to number. Changes width of text boxes to the number of characters that the user entered. Displays results on webpage.
 

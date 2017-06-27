@@ -1,4 +1,5 @@
-// Udemy Coding for Writers final project 
+// Project that builds Udemy Coding for Writers final project. Extended functionality beyond items learned in course or required for final project.
+
 // Creates therapist bot that user can interact with.
 // Changes therapist responses based on type of user input.
 
@@ -50,7 +51,7 @@ const QUESTION_RESPONSES = [
     "How long have you wanted to know that?",
     "That depends on who you ask."];
 
-// AFirst few words of a question. Responses by the therapist bot to turn user statements into questions
+// First few words of a question. Responses by the therapist bot to turn user statements into questions
 const QUESTION_STARTS = [
     "Why do you say that",
     "Can you tell me more about how",
