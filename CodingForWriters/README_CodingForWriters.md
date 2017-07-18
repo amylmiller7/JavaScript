@@ -16,7 +16,7 @@ These projects include the following:
 | CFW_7 | Own project that creates arrays to store user input, manipulates input, and outputs manipulated input to web page.  |
 | CFW_8 | Own project that uses objects, manipulates user input, allows user to sort data, and changes the contents of the web page. |
 | CFW_9 | Project that builds on Udemy Coding for Writers exercise on libraries. Uses my own data. |
-| CFW_10 | Project that builds Udemy Coding for Writers final project. Extended functionality beyond items learned in course or required for final project, e.g., calls submit() function when use clicks Return, checks if no user input in textbox, clears user input from textbox after content added to web page, converts user input to lower case, scrolls to bottom of web page when new content added. |
+| CFW_10 | Project that builds on Udemy Coding for Writers final project. Extended functionality beyond items learned in course or required for final project, e.g., calls submit() function when use clicks Return, checks if no user input in textbox, clears user input from textbox after content added to web page, converts user input to lower case, scrolls to bottom of web page when new content added. |
 
 
 ## CFW_1_addNumbers 
