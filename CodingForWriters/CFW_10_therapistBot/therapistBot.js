@@ -93,9 +93,6 @@ function submitLine() {
     // EXTRA. Calls function clearTextbox.
     clearTextbox();
 
-    // EXTRA. Calls function lowercaseFirstLetter, which changes first letter in user input to lower case.
-    lowercaseFirstLetter(patientLine);
-
     // Variable to hold therapist bot responses
     var therapistLine;
 
