@@ -5,111 +5,233 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amy's JavaScript Projects</title>
     <style>
+
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: Arial, Verdana, Helvetica, sans-serif;
             max-width: 900px;
             margin: 0 auto;
             padding: 40px 20px;
             background-color: #f5f5f5;
             color: #333;
         }
+
         h1 {
             color: #2c3e50;
-            border-bottom: 3px solid #3498db;
             padding-bottom: 10px;
         }
+
         h2 {
             color: #34495e;
             margin-top: 30px;
         }
-        .project-list {
-            list-style: none;
-            padding: 0;
+
+        a.small-link {
+            font-size: 14px;
         }
-        .project-list li {
-            background: white;
-            margin: 15px 0;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            transition: transform 0.2s, box-shadow 0.2s;
+
+        /* Base table styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-spacing: 0;
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #212529;
+            background-color: #ffffff;
         }
-        .project-list li:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-        }
-        .project-list a {
-            color: #3498db;
-            text-decoration: none;
-            font-size: 18px;
+
+        /* Table caption */
+        caption {
+            padding: 0.75rem;
+            font-size: 1.25rem;
             font-weight: 600;
+            text-align: left;
+            caption-side: top;
         }
-        .project-list a:hover {
-            color: #2980b9;
-            text-decoration: underline;
+
+        /* Header cells */
+        thead th {
+            background-color: #e9ecef;
+            color: #212529;
+            font-weight: 600;
+            text-align: left;
+            padding: 0.75rem 1rem;
+            border-bottom: 2px solid #6c757d;
         }
-        .project-description {
-            color: #666;
-            margin-top: 8px;
-            font-size: 14px;
+
+        /* Body cells */
+        tbody td,
+        tbody th {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid #adb5bd;
+            vertical-align: top;
         }
-        footer {
-            margin-top: 50px;
-            text-align: center;
-            color: #7f8c8d;
-            font-size: 14px;
+
+        /* Row headers in body */
+        tbody th {
+            font-weight: 600;
+            text-align: left;
+        }
+
+        /* Footer cells */
+        tfoot td,
+        tfoot th {
+            padding: 0.75rem 1rem;
+            font-weight: 600;
+            background-color: #e9ecef;
+            border-top: 2px solid #6c757d;
+        }
+
+        /* Zebra striping for better readability */
+        tbody tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        /* Hover state for interactive tables */
+        tbody tr:hover {
+            background-color: #e9ecef;
+        }
+
+        /* Focus styles for keyboard navigation */
+        table:focus-within td:focus,
+        table:focus-within th:focus {
+            outline: 2px solid #0d6efd;
+            outline-offset: -2px;
+        }
+
+        /* Responsive wrapper */
+        .table-wrapper {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 1rem 0;
+        }
+
+        /* Sortable column indicators (if applicable) */
+        th[aria-sort] {
+            cursor: pointer;
+            user-select: none;
+        }
+
+        th[aria-sort="ascending"]::after {
+            content: " ↑";
+            font-size: 0.875em;
+        }
+
+        th[aria-sort="descending"]::after {
+            content: " ↓";
+            font-size: 0.875em;
+        }
+
+        /* Mobile optimization */
+        @media (max-width: 768px) {
+            table {
+                font-size: 0.875rem;
+            }
+            
+            thead th,
+            tbody td,
+            tbody th,
+            tfoot td,
+            tfoot th {
+                padding: 0.5rem 0.75rem;
+            }
+        }
+
+        /* Print styles */
+        @media print {
+            tbody tr:hover {
+                background-color: transparent;
+            }
+            
+            thead th {
+                background-color: #e9ecef !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>JavaScript Projects</h1>
-    
-    <h2>Coding for Writers Course</h2>
-    <ul class="project-list">
-        <li>
-            <a href="CodingForWriters/CFW_3_variables/variables.html">Variables</a>
-            <div class="project-description">Introduction to JavaScript variables and data types.</div>
-        </li>
-        <li>
-            <a href="CodingForWriters/CFW_4_conditionals/conditionals.html">Conditionals</a>
-            <div class="project-description">Working with if/else statements and conditional logic.</div>
-        </li>
-        <li>
-            <a href="CodingForWriters/CFW_5_loops/loops.html">Loops</a>
-            <div class="project-description">Exploring loops and iteration in JavaScript.</div>
-        </li>
-        <li>
-            <a href="CodingForWriters/CFW_6_arrays/arrays.html">Arrays</a>
-            <div class="project-description">Understanding arrays and array methods.</div>
-        </li>
-        <li>
-            <a href="CodingForWriters/CFW_7_objects/objects.html">Objects</a>
-            <div class="project-description">Working with JavaScript objects and properties.</div>
-        </li>
-        <li>
-            <a href="CodingForWriters/CFW_8_functions/functions.html">Functions</a>
-            <div class="project-description">Creating and using functions in JavaScript.</div>
-        </li>
-        <li>
-            <a href="CodingForWriters/CFW_9_DOM/DOM.html">DOM Manipulation</a>
-            <div class="project-description">Interacting with the Document Object Model.</div>
-        </li>
-        <li>
-            <a href="CodingForWriters/CFW_10_therapistBot/therapistBot.html">Therapist Bot</a>
-            <div class="project-description">Interactive therapist chatbot that responds to user input with questions and reflections.</div>
-        </li>
-        <li>
-            <a href="CodingForWriters/CFW_11_magicEightBall/magicEightBall.html">Magic Eight Ball</a>
-            <div class="project-description">Classic fortune-telling toy that provides random answers to yes/no questions.</div>
-        </li>
-        <li>
-            <a href="CodingForWriters/CFW_12_personalQuiz/personalQuiz.html">Personal Quiz</a>
-            <div class="project-description">Interactive personality quiz with dynamic scoring and results.</div>
-        </li>
-    </ul>
+    <main>
+        <h1>JavaScript projects</h1>
+        <p>This landing page contains links to all JavaScript projects I worked on as part of or inspired by coursework. The projects are hosted by GitHub Pages. You can view the source code on <a href="https://github.com/amylmiller7/JavaScript" style="color: #3498db;" rel="noopener">GitHub</a>.</p>
+        <div class="table-wrapper">
+            <table>
+                <caption>Coding for Writers projects</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Project name</th>
+                        <th scope="col">Project type</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Project output</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
 
-    <footer>
-        <p>View the source code on <a href="https://github.com/amylmiller7/JavaScript" style="color: #3498db;">GitHub</a></p>
-    </footer>
+                        <td>CFW_1_addNumbers</td>
+                        <td>Udemy Coding for Writers exercise on operators</td>
+                        <td>Adds numbers that the user entered. Converts text that the user entered from string to number. Displays result on a webpage.</td>
+                        <td><a href="CodingForWriters/CFW_1_addNumbers/addNumbers.html">Add numbers</a></td>
+                    </tr>
+                    <tr>
+                        <td>CFW_2_addAverageNumbers</td>
+                        <td>Own project developed from items learned in Udemy Coding for Writers course. Not an exercise for Udemy Coding for Writers course.</td>
+                        <td>Adds and averages numbers that the user entered. Converts text that the user entered from string to number. Changes width of text boxes to the number of characters that the user entered. Displays results on a webpage.</td>
+                        <td><a href="CodingForWriters/CFW_2_addAverageNumbers/addAverageNumbers.html">Add and average numbers</a></td>
+                    </tr>
+                    <tr>
+                        <td>CFW_3_nameInput</td>
+                        <td>Project that builds on Udemy Coding for Writers exercise on HTML and JS</td>
+                        <td>Manipulates the first name and last name that the user entered. Displays name on a webpage two ways: first name followed by last name and last name followed by first name.</td>
+                        <td><a href="CodingForWriters/CFW_3_nameInput/nameInput.html">Name input</a></td>
+                    </tr>
+                    <tr>
+                        <td>CFW_4_nameManipulation</td>
+                        <td>Project that builds on Udemy Coding for Writers exercise on functions</td>
+                        <td>Manipulates the first name and last name that the user entered. Displays name on a webpage two ways: first name followed by last name and last name followed by first name. Calculates and displays the length of the full name (including space between names). Allows user to clear data from input fields and the webpage.</td>
+                        <td><a href="CodingForWriters/CFW_4_nameManipulation/nameManipulation.html">Name manipulation</a></td>
+                    </tr>
+                    <tr>
+                        <td>CFW_5_createAccount</td>
+                        <td>Own project to create and validate credentials when setting up account. Not an exercise for Udemy Coding for Writers course.</td>
+                        <td>Creates a username and password for an account. Confirms that user entered text in text boxes. Compares the number of characters in the password and password confirmation text boxes. Checks that the text input in the password and password confirmation text boxes match. Adds messages in alerts and on a webpage. Clears text in text boxes.</td>
+                        <td><a href="CodingForWriters/CFW_5_createAccount/createAccount.html">Create an account</a></td>
+                    </tr>
+                    <tr>
+                        <td>CFW_6_loops</td>
+                        <td>Udemy Coding for Writers exercise on loops</td>
+                        <td>Iterates over loops. Adds 1 number, adds 2 numbers, subtracts 1 number, subtracts 3 numbers, and multiplies by 2. Displays results on a webpage.</td>
+                        <td><a href="CodingForWriters/CFW_6_loops/loops.html">Loops</a></td>
+                    </tr>
+                    <tr>
+                        <td>CFW_7_arraysFood</td>
+                        <td>Own project that creates arrays to store user input, manipulates input, and outputs manipulated input to web page. Not an exercise for Udemy Coding for Writers course.</td>
+                        <td>Gathers user input from checkboxes and a text box to practice array creation and manipulation. Creates array. Adds selected items and text input in text box to the array. Sorts items alphabetically before returning array as a list with a message to the user.</td>
+                        <td><a href="CodingForWriters/CFW_7_arraysFood/arraysFood.html">Party time</a></td>
+                    </tr>
+                    <tr>
+                        <td>CFW_8_objectsMovies</td>
+                        <td>Own project that uses objects, manipulates user input, allows user to sort data, and changes the contents of the web page. Not an exercise for Udemy Coding for Writers course.</td>
+                        <td>Displays list of movies and modifies based on user input. Allows user to sort movies in the list based on title, year, and category. Allows user to add movies to the list and sort them based on title, year, and category.</td>
+                        <td><a href="CodingForWriters/CFW_8_objectsMovies/objectsMovies.html">Movies</a></td>
+                    </tr>
+                    <tr>
+                        <td>CFW_9_libraryOngoingEducation</td>
+                        <td>Project that builds on Udemy Coding for Writers exercise on libraries</td>
+                        <td>Displays select Ongoing Education coursework in chart form. Uses a JavaScript library to display the chart. Data gathered from list of recent coursework in XML repo <a class="small-link" href="https://github.com/amylmiller7/XML/tree/master/OngoingEducation">Ongoing Education</a>.</td>
+                        <td><a href="CodingForWriters/CFW_9_libraryOngoingEducation/libraryOngoingEducation.html">Ongoing Education coursework by select topics</a></td>
+                    </tr>
+                    <tr>
+                        <td>CFW_10_therapistBot</td>
+                        <td>Project that builds on Udemy Coding for Writers final project. Extended functionality beyond items learned in course or required for final project.</td>
+                        <td>Creates a therapist bot that user interacts with by typing comments into text box. Therapist bot responds to user's input.</td>
+                        <td><a href="CodingForWriters/CFW_10_therapistBot/therapistBot.html">Fraulein Anna, the Therapist bot (final project)</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
 </body>
 </html>
