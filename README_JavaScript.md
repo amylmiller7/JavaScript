@@ -7,5 +7,5 @@ This repository contains JavaScript projects from coursework. Projects include c
 
 ## Live projects
 
-Projects are hosted on GitHub pages. View the complete project list at https://amylmiller7.github.io/JavaScript/index.html.
+Projects are hosted on GitHub Pages. View the complete project list at https://amylmiller7.github.io/JavaScript/index.html.
 
