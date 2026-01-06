@@ -1,23 +1,11 @@
 # JavaScript
-Repository includes projects inspired by classes. Done as assignments, projects that built on the assignments, or my own projects using items learned in classes.
+This repository contains JavaScript projects from coursework. Projects include course assignments, extensions of those assignments, and original work applying concepts learned in class.
+
 
 ## Classes
-* Coding for Writers I, Udemy, Peter Gruenbaum
+* **Coding for Writers I** (Udemy) &ndash; Peter Gruenbaum
 
-## Notes
+## Live projects
 
-To render project in browser:
+Projects are hosted on GitHub pages. View the complete project list at https://amylmiller7.github.io/JavaScript/index.html.
 
-1. Under JavaScript, click **CodingForWriters**.
-
-2. Click any project folder.
-
-3. Click the HTML file in that project folder.
-
-4. Copy the URL for the HTML file.
-
-5. Go to http://rawgit.com/.
-
-6. Paste the URL for the HTML file.
-
-7. Copy the URL that RawGit generates under **Use this URL in production** into your browser.
